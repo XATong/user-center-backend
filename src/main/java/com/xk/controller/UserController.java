@@ -27,6 +27,7 @@ import static com.xk.constant.UserConstant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins = { "http://user.javat.top" }, allowCredentials = "true")
 public class UserController {
 
     @Autowired
